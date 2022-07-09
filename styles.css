@@ -21,6 +21,17 @@ body{
     margin: 20px 15px 5px;
     background-color: gainsboro;
     border-radius: 5px;
+    text-align: right;
+}
+
+.curr_display{
+    min-height: 64px;
+    font-size: 40px;
+}
+
+.last_display{
+    min-height: 32px;
+    font-size: 20px;
 }
 
 .clear_container{
@@ -28,6 +39,10 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 5px;
+}
+
+button:hover{
+    background-color: darkslategray;
 }
 
 .clear,
